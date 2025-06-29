@@ -88,7 +88,42 @@
 
 
 # Q5 write a program to input 2 int numbers a and b . print True if a is greater than b otherwise print False.
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-equation = a >= b 
-print("Is a greater than or equal to b?", equation)  # True if a >= b, otherwise False
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# equation = a >= b 
+# print("Is a greater than or equal to b?", equation)  # True if a >= b, otherwise False\
+
+# Q6 write a program to input users first name and print its length.
+# fname = input("Enter your first name: ")
+# leng = len(fname)
+# print("Length of your first name is:", leng)
+
+
+# Q7 write a program to find occurence of $ in a string.
+# str = "hello ye mai hu$ aur mai boht$ menhnga hu $ pure $86.2 ka"
+# print("Dollar present in string :", str.count('$'))
+
+# Q8 grade students on based of marks
+# marks = int(input("Enter your marks: "))
+# if (marks >= 90):
+#     print("Grade A+")
+# elif (marks >= 80): 
+#     print("Grade A")
+# elif(marks >= 70):
+#     print("Grade B+")
+# elif(marks >= 60):
+#     print("Grade B")
+# elif(marks >= 50):
+#     print("Grade C")
+# elif(marks >= 40):
+#     print("Grade D")
+# else:
+#     print("Fail") 
+
+
+# Q9 write a program to input age of user and print if user is eligible to vote or not and can drive or not.
+# age = int(input("Enter your age: "))
+# if (age >= 18):
+#     print("You are eligible to vote and can drive a car also.")
+# else:
+#     print("You are not eligible to vote and cannot drive a car.")
