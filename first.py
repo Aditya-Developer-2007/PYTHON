@@ -85,3 +85,10 @@
 # b = float(input("enter 2nd decimal number :"))
 # average = (a + b) / 2
 # print("Average of the two numbers is:", average)
+
+
+# Q5 write a program to input 2 int numbers a and b . print True if a is greater than b otherwise print False.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+equation = a >= b 
+print("Is a greater than or equal to b?", equation)  # True if a >= b, otherwise False
