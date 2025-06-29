@@ -127,3 +127,31 @@
 #     print("You are eligible to vote and can drive a car also.")
 # else:
 #     print("You are not eligible to vote and cannot drive a car.")
+
+
+# Q10 write a program to input a number and check if it is even or odd.
+# num = int(input("enter a numer: "))
+# if (num % 2 == 0):
+#     print(num,"Number is even")
+# else:
+#     print(num,"Number is odd")
+
+
+# Q11 WAP to find the largest of three numbers.
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))  
+# num3 = int(input("Enter third number: "))
+# if (num1 >= num2) and (num1 >= num3):
+#     print(num1, "is the largest number.")
+# elif (num2 >= num1) and (num2 >= num3):
+#     print(num2, "is the largest number.")
+# else:
+#     print(num3, "is the largest number.")
+
+
+# Q12 WAP to check if a no. is multiple of 7 or not.
+# num = int(input("Enter a number: "))
+# if (num % 7 == 0):
+#     print(num, "is a multiple of 7.")
+# else:
+#     print(num, "is not a multiple of 7.")    
