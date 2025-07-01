@@ -155,3 +155,118 @@
 #     print(num, "is a multiple of 7.")
 # else:
 #     print(num, "is not a multiple of 7.")    
+
+
+# list 
+# num = [1, 25, 4, 45, 7, 18, 10]
+# num.append(12)
+# print("List after appending 12:", num)
+# num.insert(2, 100)
+# print("List after inserting 100 at index 2:", num)
+# num.reverse()
+# print("List after reverse: ",num)
+# num.sort()
+# print("List after sorting: ", num)
+# num.remove(100)
+# print("List after removing 100:", num)
+# num.pop(4)
+# print("List after POP: ",num)
+
+#Tuples
+# tup = (1, 4, 6, 7, 1, 7, 2, 4)
+# print(type(tup))
+# print("index of first occurence: ",tup.index(6))
+# print("total occurence: ",tup.count(4))
+
+# Q13 WAP to ask the user to enter names of their 3 favoraite movies and store them in a list.
+# movies = []
+# movie1 = input("Enter First Movie: ")
+# movie2 = input("Enter Second Movie: ")
+# movie3 = input("Enter Third Movie: ")
+
+# movies.append(movie1)
+# movies.append(movie2)
+# movies.append(movie3)
+# print("Your favorite movies are:", movies)
+
+# Q14 WAP to check if a list contain a palindrome of element.
+# num = [1, 2, 3, 4, 8, 4, 3, 2, 1]
+# cnum = num.copy()
+# cnum.reverse()
+# if (num == cnum):
+#     print("List is a palindrome.")
+# else:
+#     print("List is not a palindrome.")
+
+# Q15 WAP to count the numbers of student with the "A" grade in a tuple.
+# grades = ('A', 'B', 'A', 'C', 'A', 'B', 'A')
+# print("Total number of students with grade 'A':", grades.count('A'))
+
+# Q16 WAP to sory the following list in ascending order.
+# Alphabets = ['A', 'B', 'A', 'C', 'A', 'B', 'A']
+# Alphabets.sort()
+# print("Original list:", Alphabets)
+
+
+
+# #Dictionary
+# student = {
+#     "name": "Aditya saini",
+#     "age": 20,
+#     "subjects": { "Math": 89,
+#                   "Science": 85,
+#                   "English": 90 
+#                   }
+# }
+
+# # methods in dictionary
+# print(student.get("name"))
+# print(list(student.keys()))
+# print(list(student.values()))
+# print(list(student.items()))
+# student.update({"city": "Delhi"})
+# print("Updated Student Dictionary:", student)
+
+#Sets
+# my_set = {1, 2, 3, 4, 5}
+# my_set.add(6)
+# print("Set after adding 6:", my_set)
+# my_set.remove(3)
+# print("Set after removing 3:", my_set)
+# my_set.discard(10)  # No error if 10 is not present
+# print("Set after discarding 10:", my_set)
+# my_set.clear()
+# print("Set after clearing:", my_set)
+# my_set = {1, 2, 3, 4, 5}
+# my_set2 = {4, 5, 6, 7, 8}
+# union_set = my_set.union(my_set2)
+# print("Union of sets:", union_set)
+# intersection_set = my_set.intersection(my_set2)
+# print("Intersection of sets:", intersection_set)
+
+# Q17 store following word meanings in a dictionary.
+# table : "list of items "
+# cat: "a small domesticated carnivorous mammal"
+
+# WORD_MEANINGS = {
+#     "table": "list of items",
+#     "cat": "a small domesticated carnivorous mammal"
+# }
+# print("Word Meanings Dictionary:", list(WORD_MEANINGS.items()))
+
+
+# Q18 you are given a list of students assume one classroom is required for each subject. how many classrooms are required?
+    # "python","java", "c++", "python", "javascript", "python", "c++", "java", "python", "c++", "c"
+# set_of_subjects = {"python","java", "c++", "python", "javascript", "python", "c++", "java", "python", "c++", "c"}
+# print("Number of classrooms required:", len(set_of_subjects))
+
+# Q19 WAP to enter marks of 3 subject from the user and store them in a dictionary.start with empty dictionary and add one by one use subject name as key and marks as value.
+# dictionary = {}
+# physics = int(input("Enter marks of Physics: "))
+# chemistry = int(input("Enter marks of Chemistry: "))
+# maths = int(input("Enter marks of Maths: "))
+
+# dictionary["Physics"] = physics
+# dictionary["Chemistry"] = chemistry
+# dictionary["Maths"] = maths
+# print("Marks:", list(dictionary.items()))
