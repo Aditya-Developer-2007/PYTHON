@@ -270,3 +270,47 @@
 # dictionary["Chemistry"] = chemistry
 # dictionary["Maths"] = maths
 # print("Marks:", list(dictionary.items()))
+
+#loops
+#while loop
+# while condition:
+    # code to execute
+    
+
+# Q20 WAP to print numbers from 1 to 10 using while loop.
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1  
+
+# Q21 WAP to print numbers from 10 to 1 using while loop.
+# i = 10
+# while i >= 1:
+#     print(i)
+#     i -= 1
+
+# Q22 WAP to print the multiplication table of a number entered by the user.
+# num = int(input("Enter a number for multiplication table: "))
+# i = 1
+# while i <= 10:
+#     print(num * i)
+#     i += 1
+
+# Q23 print the elements of the following list using a while loop.
+# num = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# idx = 0
+# while idx < len(num):
+#     print(num[idx])
+#     idx += 1
+
+# Q24 WAP to search the elements of the following tuple using a while loop.
+# tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = int(input("Enter a number to search in the tuple: "))
+# idx = 0
+# while idx < len(tup):
+#     if (tup[idx] == x):
+#         print("Element found at index:", idx)
+#     break
+#     idx += 1
+# print("Element not found in the tuple.")
+
