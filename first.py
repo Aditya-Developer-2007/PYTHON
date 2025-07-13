@@ -314,3 +314,42 @@
 #     idx += 1
 # print("Element not found in the tuple.")
 
+#For loop
+# for el in list/str/etc:
+#     code to execute
+
+# Q23 print the elements of the following list using a For loop.
+# num = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# for el in num:
+#     print(el)
+
+
+# Q24 WAP to search the elements of the following tuple using a while loop.
+# tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = int(input("Enter a number to search in the tuple: "))
+# idx = 0
+# for el in tup:
+#     if (el == x):
+#         print("Element found at index ", idx)
+#         break
+#     idx += 1
+
+
+#range
+# for i in range(start, end, step):
+#     code to execute
+
+# Q25 WAP to print numbers from 1 to 10 using range.
+# for i in range(1, 11):
+#     print(i)
+
+# Q26 WAP to print numbers from 10 to 1 using range.
+# for i in range(10, 0, -1):
+#     print(i)
+
+# Q27 WAP to print the multiplication table of a number entered by the user using range.
+# num = int(input("Enter a number for multiplication table: "))
+# for i in range(1, 11):
+#     print(num * i)
+
+#Pass statement
