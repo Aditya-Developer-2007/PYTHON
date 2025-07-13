@@ -352,4 +352,18 @@
 # for i in range(1, 11):
 #     print(num * i)
 
-#Pass statement
+#functions
+def Calc_sum(a, b):
+    sum = a + b
+    print(sum)
+    return sum
+
+Calc_sum(5, 7)
+
+
+#AVERAGE OF THREE NUMBERS
+def Avg_num(a, b, c):
+    avg = (a + b + c)/3
+    return avg
+
+print(Avg_num(5, 8, 7)) 
