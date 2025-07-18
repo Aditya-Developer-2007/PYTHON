@@ -353,17 +353,23 @@
 #     print(num * i)
 
 #functions
-def Calc_sum(a, b):
-    sum = a + b
-    print(sum)
-    return sum
+# def Calc_sum(a, b):
+#     sum = a + b
+#     print(sum)
+#     return sum
 
-Calc_sum(5, 7)
+# Calc_sum(5, 7)
 
 
-#AVERAGE OF THREE NUMBERS
-def Avg_num(a, b, c):
-    avg = (a + b + c)/3
-    return avg
+# #AVERAGE OF THREE NUMBERS
+# def Avg_num(a, b, c):
+#     avg = (a + b + c)/3
+#     return avg
 
-print(Avg_num(5, 8, 7)) 
+# print(Avg_num(5, 8, 7)) 
+
+# Q28 WAF to print a length of a list.
+num = [4, 7, 8, 6, 5, 1]
+def Length(list):
+    print(len(list))
+    
