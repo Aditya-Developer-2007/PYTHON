@@ -3,6 +3,7 @@ a = "hello world "
 b = "abcdefghij "
 c = "uhdsfhjsdjh"
 d = 10
+e = 20
 
 #slicing
 # print(a[2:5])  
