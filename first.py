@@ -96,7 +96,7 @@
 # Q6 write a program to input users first name and print its length.
 # fname = input("Enter your first name: ")
 # leng = len(fname)
-# print("Length of your first name is:", leng)
+# print("Length of your first name is:", leng)c.
 
 
 # Q7 write a program to find occurence of $ in a string.
@@ -369,7 +369,38 @@
 # print(Avg_num(5, 8, 7)) 
 
 # Q28 WAF to print a length of a list.
-num = [4, 7, 8, 6, 5, 1]
-def Length(list):
-    print(len(list))
+# num = [4, 7, 8, 6, 5, 1]
+# def Length(num):
+#     print(len(num))
+
+# Length(num)
     
+# Q29 WAF to print the elements of the list in a single line.
+# Cars = ["BMW" , "Audi" , "Ferari" , "Konisec" , "Suzuki" ]
+# def Single(Cars):
+#     for item in Cars:
+#         print(item , end=" ")
+
+# Single(Cars) 
+
+
+# Q30 WAF to print factorial of a number n.
+# n = int(input("Enter a number to find its factorial: "))
+# def Factorial(n):
+#     fact = 1
+#     for i in range(1, n+1):
+#         fact *= i
+#     return fact
+
+# print("Factorial of", n, "is", Factorial(n))
+
+
+
+
+
+
+
+
+
+
+
