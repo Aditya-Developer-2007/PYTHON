@@ -44,99 +44,73 @@ print(f"the {a} {b} {c} {d} {e} {d*e}")
 # operators
 a = 2
 b = 5
-# here a and b are two variables.
 
-# Arithematic Operators
-# Add (+) 
-print("a + b =", a + b) #7
-# Subtract (-)
-print("a - b =", a - b) #-3
-# Multiply (*)
-print("a * b =", a * b) #10
-# Divide (/)
-print("a / b =", a / b) #0.4
-# Modulus (%)
-print("a % b =", a % b) #2
-# Exponentiation (**)
-print("a ** b =", a ** b) #32
+
+# Arithematic Operators 
+print("a + b =", a + b)
+print("a - b =", a - b) 
+print("a * b =", a * b)
+print("a / b =", a / b)
+print("a % b =", a % b)
+print("a ** b =", a ** b)
 
 
 # Comparison Operators
-# Equal to (==)
-print("a == b:", a == b) #False
-# Not equal to (!=)
-print("a != b:", a != b) #True
-# Greater than (>)  
-print("a > b:", a > b) #False
-# Less than (<)
-print("a < b:", a < b) #True
-# Greater than equal to (>=)
-print("a >= b:", a >= b) #False
-# Less than equal to (<=)
-print("a <= b:", a <= b) #True
+print("a == b:", a == b) 
+print("a != b:", a != b) 
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a >= b:", a >= b) 
+print("a <= b:", a <= b) 
 
 #Assignment Operators
-# Assign (=)
 x = 10
-print("x =", x) #10
-# Add and assign (+=)
+print("x =", x)
 x += 5
-print("x :", x) #15
-# Subtract and assign (-=)
+print("x :", x)
 x -= 3
-print("x :", x) #12
-# Multiply and assign (*=)
+print("x :", x)
 x *= 2
-print("x :", x) #24
-# Divide and assign (/=)
+print("x :", x)
 x /= 4
-print("x :", x) #6.0
-# Modulus and assign (%=)
+print("x :", x) 
 x %= 5
-print("x :", x) #1.0
-# Exponentiation and assign (**=)
+print("x :", x)
 x **= 3
-print("x :", x) #1.0
+print("x :", x) 
 
 # Logical Operators
-# Logical AND (and)
 p = True
 q = False
-print("p and q:", p and q) #False
-# Logical OR (or)
-print("p or q:", p or q) #True
-# Logical NOT (not)
-print("not p:", not p) #False
-print("not q:", not q) #True
+print("p and q:", p and q)
+print("p or q:", p or q) 
+print("not p:", not p) 
+print("not q:", not q) 
+
+#Bitwise Operators
+print("a & b =", a & b)
+print("a | b =", a | b)
+print("~a =", ~a)
+print("a ^ b =", a ^ b)
+print("a >> 1 =", a >> 1) 
+print("a << 1 =", a << 1) 
 
 # membership operators
-# Membership in (in)
+a = "hello world "
+b = "abcdefghij "
+c = "uhdsfhjsdjh"
 print("'h' in a:", 'h' in a) #True
 print("'z' in a:", 'z' in a) #False
-# Membership not in (not in)
 print("'h' not in a:", 'h' not in a) #False
 print("'z' not in a:", 'z' not in a) #True
 
 # Identity operators
-# Identity is (is)
 m = 5
 n = 5
 print("m is n:", m is n) #True
-# Identity is not (is not)
 n = 10
 print("m is not n:", m is not n) #True
 
-#Bitwise Operators
-# Bitwise AND (&)
-print("a & b =", a & b) #0
-# Bitwise OR (|)
-print("a | b =", a | b) #7
-# Bitwise NOT (~)
-print("~a =", ~a) #-3
-# Bitwise XOR (^)
-print("a ^ b =", a ^ b) #7
-# Bitwise right shift (>>)
-print("a >> 1 =", a >> 1) #1
-# Bitwise left shift (<<)
-print("a << 1 =", a << 1) #4
+
+
 
